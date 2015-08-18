@@ -1,0 +1,287 @@
+@charset "utf-8";
+/*
+SanDisk.com
+Title: Default CSS
+Date: April 2012
+Website:  http://www.sandisk.com/
+*/
+
+
+
+/*----------------- CSS NORMALIZER -----------------*/
+/*
+- cancels default styles applied to page elements
+- adjusts default elements between browsers to same baseline
+*/
+*{ margin:0;padding:0; }
+div, dl, dt, dd, ul, ol, li, pre, hr, form, fieldset, input, th, td {margin:0; padding:0;font-size:inherit; font-size:100%;}
+address, caption, cite, code, dfn, th, var {font-style:normal; font-weight:normal;}
+table {border-collapse:collapse; border-spacing:0; font-size:inherit; font-size:100%;}
+select, input, textarea {font:99% verdana,geneva,sans-serif; }
+fieldset, img {border:0;}
+img {vertical-align:middle;}
+select{border:1px solid #7F9DB9; background:#FFF; padding:.1em; margin:.1em 0 .1em .2em;}
+legend {display:none;}
+select {background:#FFF;}
+a  { outline: none; }
+label { cursor: pointer; }
+
+/* Usage    
+
+All Common styles, defining the element styles will go here
+
+*/
+
+
+/*----------------- PADDING -----------------*/
+
+.Padding5    { padding:5px }
+.PaddingTB5    { padding:5px 0 }
+.PaddingLR5    { padding:0 5px }
+.Padding10    { padding:10px }
+.PaddingTB10{ padding:10px 0 }
+.PaddingLR10{ padding:0 10px }
+.Padding15    { padding:15px }
+.PaddingTB15{ padding:15px 0 }
+.PaddingLR15{ padding:0 15px }
+.Padding20    { padding:20px }
+.PaddingTB20{ padding:20px 0 }
+.PaddingLR20{ padding:0 20px }
+
+.PTop5        { padding-top:5px }
+.PTop10        { padding-top:10px }
+.PTop15        { padding-top:15px }
+.PTop20        { padding-top:20px }
+
+.PRight5    { padding-right:5px }
+.PRight10    { padding-right:10px }
+.PRight15    { padding-right:15px }
+.PRight20    { padding-right:20px }
+
+.PBottom5     { padding-bottom:5px }
+.PBottom10     { padding-bottom:10px }
+.PBottom15     { padding-bottom:15px }
+.PBottom20     { padding-bottom:20px }
+
+.PLeft5        { padding-left:5px }
+.PLeft10    { padding-left:10px }
+.PLeft15    { padding-left:15px }
+.PLeft20    { padding-left:20px }
+
+/*----------------- MARGIN -----------------*/
+
+.Margin5    { margin:5px }
+.MarginTB5    { margin:5px 0 }
+.MarginLR5    { margin:0 5px }
+.Margin10    { margin:10px }
+.MarginTB10    { margin:10px 0 }
+.MarginLR10    { margin:0 10px }
+.Margin15    { margin:15px }
+.MarginTB15    { margin:15px 0 }
+.MarginLR15    { margin:0 15px }
+.Margin20    { margin:20px }
+.MarginTB20    { margin:20px 0 }
+.MarginLR20    { margin:0 20px }
+
+.MTop5        { margin-top:5px }
+.MTop10        { margin-top:10px }
+.MTop15        { margin-top:15px }
+.MTop20        { margin-top:20px }
+.MTop30        { margin-top:30px }
+
+.MRight5    { margin-right:5px }
+.MRight10    { margin-right:10px }
+.MRight15    { margin-right:15px }
+.MRight20    { margin-right:20px }
+.MBottom1     { margin-bottom:1px }
+.MBottom5     { margin-bottom:5px }
+.MBottom10     { margin-bottom:10px }
+.MBottom15     { margin-bottom:15px }
+.MBottom20     { margin-bottom:20px }
+.MBottom28     { margin-bottom:28px }
+.MBottom40     { margin-bottom:40px !important}
+
+.MLeft5        { margin-left:5px }
+.MLeft10    { margin-left:10px }
+.MLeft15    { margin-left:15px }
+.MLeft20    { margin-left:20px }
+.MLeft30    { margin-left:30px }
+.MLeft60    { margin-left:60px }
+.MLeft65    { margin-left:65px }
+.MLeft70    { margin-left:70px }
+.BStrong { color:#454444; font-weight:bold;}
+
+
+/*Floating Style*/
+
+.fright {float:right}
+.fleft {float:left}
+
+/*----------------- LINKS -----------------*/
+a{
+    color: #de0000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+a.arrow {
+    background: url(img/arrow.gif) no-repeat right 5px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+a.arrow:hover {
+    text-decoration: underline;
+}
+a.arrow2{
+    background: url(img/arrow.gif) no-repeat 3px 5px;
+    padding-left: 13px; text-decoration: none;
+}
+a.arrow2:hover{
+    text-decoration: underline;
+}
+
+
+/*----------------- LISTS -----------------*/
+ul.redarrow{
+    padding: 0;
+    list-style: none;
+}
+ul.redarrow li{
+    background: url(img/arrow-red.gif) 3px 4px no-repeat;
+    padding-left: 14px;
+    font-size: 12px;  
+    color:#454444;
+    padding-bottom: 5px;
+}
+
+ul.redarrow2{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.redarrow2 li{
+    background: url(img/arrow-red.gif) 3px 4px no-repeat;
+    padding-left: 14px;
+    font-size: 11px;
+    color: #777;
+    padding-bottom: 5px;
+}
+ul.redarrow2 li ul li{
+    background: url(img/arrow.gif) no-repeat 3px 5px;
+    line-height: 17px;
+    padding-left: 15px;
+    list-style: none;
+}
+ul.arrowList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    padding-bottom: 5px;
+}
+ul.arrowList li{
+    background: none;
+}
+ul.arrowList li a {
+    background: url(img/arrow.gif) no-repeat 3px 5px;
+    line-height: 17px;
+    padding-left: 15px;
+}
+
+.odd{background-color: #fff ;}
+.even{background-color:#f7f7f7;}
+
+
+/****************Tool Tip********************//*#family-capacity*/
+.tooltip{}
+.tooltip div{display:none;
+  position:absolute;
+  padding: 5px;
+  width:130px;
+  min-width:20px;
+  max-width:130px;
+  border:2px solid #aeaeae;
+  background:#ffffff;
+  margin-top:23px;
+  margin-left:-20px;
+  z-index:9001;}
+
+.tooltip:hover div{
+  display:inline;
+  
+ }
+
+.tt{
+  color:red;
+  font-weight:bold;
+  text-decoration:none;
+  position:relative;
+  *position:static;
+  cursor:pointer;
+  
+}
+.tt sup{vertical-align: top; content: "+"; }
+.tt span{ display: none;
+  position:absolute;
+  top:0px; left:0;
+  *top:auto;*left:auto;
+  padding: 5px;
+  margin-top:10px;
+  width:200px;
+  border:2px solid #aeaeae;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  color:#000;
+  background:#ffffff;
+  z-index:100 }
+
+.tt:hover span{
+  display:block;
+}
+h2 {position:static!important;}
+
+/*----------AjaxTab------------------*/
+.TabProgress
+{  top:50px;*top:50px;left:-200px;*left:-200px;position:relative;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 13px;    
+  font-weight: normal;   
+  margin-bottom:50px;
+}
+.ajaxtabContent  { width: 677px; height:auto;float: left; padding: 24px 35px 20px 25px; display: inline; margin-bottom:20px; }
+
+.ajaxWrap    { float: left; width: 737px;margin-top:0px;_margin-top:5px; margin-left: -1px; _margin-left: -0px; background: url(img/bg-tabsbg.gif) no-repeat 0 34px; margin-bottom:5px;}
+.ajaxTab { margin: 0; padding: 0; list-style: none;}
+.ajaxdiv {display:inline;margin: 0; padding: 0; list-style: none; }
+.ajaxdivleft {height: 35px; float: left; background: url(img/bg-tabLeft.gif) no-repeat; padding-left: 8px; color:#333; margin:0px; font-weight: bold;}
+.ajaxLink { height: 23px;width:90px; float: left; background: url(img/bg-tabRight.gif) no-repeat top right;text-align: center;
+ padding-top: 11px;margin-right: 4px;  font-family: Tahoma, Arial, Helvetica, sans-serif;     
+      font-size: 11px;    
+      font-weight: normal;    
+      color: #000000;}
+.ajaxdivleftsel { height: 35px; float: left; background: url(img/bg-tabLeftSel.gif) no-repeat; padding-left: 8px; color: #333; margin: 0px; font-weight: bold; }
+
+.ajaxon { height: 24px; float: left; background: url(img/bg-tabRightSel.gif) no-repeat top right; padding-right: 8px; width: 90px; text-align: center; padding-top: 11px;
+      margin-right: 4px;font-family: Tahoma, Arial, Helvetica, sans-serif;     
+      font-size: 11px;    
+      font-weight: bold;    
+      color: #000000;}
+.ajaxdivright {border:1px solid black;height: 35px; float: right; background: url(img/bg-tabRightSel.gif) no-repeat; padding-left: 8px; color: #333;margin-right: 40px; font-weight: bold;}
+
+/*---------------End AjaxTab------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
