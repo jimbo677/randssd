@@ -27,7 +27,7 @@ All common styles, that are used across the site will go here
 }
 
 /*----------------- GLOBALS -----------------*/
-html{padding: 0; margin: 0; background: #cccccc url(/css/images/bodycolor.jpg) repeat-y center top;
+html{padding: 0; margin: 0; /* background: #cccccc url(www.sandisk.com/css/images/bodycolor.jpg) repeat-y center top; */
   width: 100%;}
 
 body  { margin: 0; padding: 0; font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #454444; /* background:#666666; */  }
@@ -37,19 +37,19 @@ h2    { margin: 0 0 7px 0; padding: 0;  font-style:  bold; font-size:22px; color
 /**+html h2{margin-left:-8px}*/
 /*h2.red{ color: #de0000; margin-bottom: 0; }*/
 h3    { padding: 0; color: #5a5657; font-size: 18px; font-weight: bold; }
-h4    { margin: 0; padding: 0; color: #5a5657; font-weight: bold; font-size: 14px; }
+h4    { margin: 12; padding: 0; color: #5a5657; font-weight: bold; font-size: 14px; }
 h5    { margin: 0; padding: 0; color: #777777; font-weight: bold; font-size: 12px; }
 h6    { margin: 0; padding: 0; color: #777777; font-weight: bold; font-size: 10px;text-transform:uppercase; }
-p      {margin:0px 0px 7px 0px;line-height:13pt;  }
+p      {margin: 0px 0px 7px 0px;line-height:13pt;  }
 /*ul.bullet li{font-size:12px !important;}*/
 /*----------------- FONTS -----------------*/
 @font-face {
  font-family: "Open Sans Light";
- src: url("../fonts/OpenSans-Light.eot") /* EOT file for IE */
+ src: url("www.sandisk.com/fonts/OpenSans-Light.eot") /* EOT file for IE */
 }
 @font-face {
  font-family: "Open Sans Light";
- src: url("../fonts/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+ src: url("www.sandisk.com/fonts/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
 }
 
 /* EOT file for IE */
@@ -57,28 +57,28 @@ p      {margin:0px 0px 7px 0px;line-height:13pt;  }
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src:url(../fonts/OpenSans-Regular.eot);
+  src:url(www.sandisk.com/fonts/OpenSans-Regular.eot);
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans-Regular.ttf);
+  src: local('Open Sans'), local('OpenSans'), url(www.sandisk.com/fonts/OpenSans-Regular.ttf);
 }
 /* EOT file for IE */
 @font-face {
   font-family: 'Open Sans Semibold';
   font-style: normal;
   font-weight: 600;
-  src:url(../fonts/OpenSans-Semibold.eot) ;
+  src:url(www.sandisk.com/fonts/OpenSans-Semibold.eot) ;
 }
 
 @font-face {
   font-family: 'Open Sans Semibold';
   font-style: normal;
   font-weight: 600;
-  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.ttf) ;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(www.sandisk.com/fonts/OpenSans-Semibold.ttf) ;
 }
 
 /* EOT file for IE */
@@ -86,20 +86,20 @@ p      {margin:0px 0px 7px 0px;line-height:13pt;  }
   font-family: 'Open Sans Bold';
   font-style: normal;
   font-weight: 700;
-  src:url(../fonts/OpenSans-Bold.eot);
+  src:url(www.sandisk.com/fonts/OpenSans-Bold.eot);
 }
 
 @font-face {
   font-family: 'Open Sans Bold';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.ttf);
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(www.sandisk.com/fonts/OpenSans-Bold.ttf);
 }
 @font-face {
   font-family: 'Open Sans Extrabold';
   font-style: normal;
   font-weight: 800;
-  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(../fonts/OpenSans-ExtraBold.ttf);
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(www.sandisk.com/fonts/OpenSans-ExtraBold.ttf);
 }
 
 
@@ -134,20 +134,20 @@ p      {margin:0px 0px 7px 0px;line-height:13pt;  }
 /***********************Lato Fonts**************************/
 @font-face {
  font-family: "Lato Light";
- src: url("/fonts/Lato/Lato-Light.eot") /* EOT file for IE */
+ src: url("www.sandisk.com/fonts/Lato/Lato-Light.eot") /* EOT file for IE */
 }
 @font-face {
  font-family: "Lato Light";
- src: url("/fonts/Lato/Lato-Light.ttf") /* TTF file for CSS3 browsers */
+ src: url("www.sandisk.com/fonts/Lato/Lato-Light.ttf") /* TTF file for CSS3 browsers */
 }
 
 @font-face {
  font-family: "Lato Regular";
- src: url("/fonts/Lato/Lato-Regular.eot") /* EOT file for IE */
+ src: url("www.sandisk.com/fonts/Lato/Lato-Regular.eot") /* EOT file for IE */
 }
 @font-face {
  font-family: "Lato Regular";
- src: url("/fonts/Lato/Lato-Regular.ttf") /* TTF file for CSS3 browsers */
+ src: url("www.sandisk.com/fonts/Lato/Lato-Regular.ttf") /* TTF file for CSS3 browsers */
 }
 
 /*#one,#two{
@@ -174,14 +174,14 @@ font-family: arial;
 
 /*----------------- HEADER -----------------*/
 #headerWrap      { width: 990px;  height: 100px; position: relative; z-index:2000;}
-.headerWrap-bg {background: url(/css/images/header-trans-bg.png) no-repeat top left}
+.headerWrap-bg {background: url(www.sandisk.com/css/images/header-trans-bg.png) no-repeat top left}
 #headerWrap .logo  { position: relative; top: 32px; left: 0px; float: left; margin-left:15px}
 #headerWrap .toolbar      { position: relative; top: 7px; color: #fff; text-align:right; font-size: 11px; margin-right:11px; padding: 2px 0; }
 #headerWrap .toolbar a      { text-decoration: none; color: #fff; padding: 0 4px }
 #headerWrap .toolbar a:hover  { text-decoration: underline; }
-#headerWrap .searchWrap    { float: right; height: 19px; background: url(/css/images/bg-sitesearch.png) no-repeat right 3px; *background: url(/css/images/bg-sitesearch.png) no-repeat 110px 3px; margin-top: 13px; margin-right: 15px; }
+#headerWrap .searchWrap    { float: right; height: 19px; background: url(www.sandisk.com/css/images/bg-sitesearch.png) no-repeat right 3px; *background: url(www.sandisk.com/css/images/bg-sitesearch.png) no-repeat 110px 3px; margin-top: 13px; margin-right: 15px; }
 #headerWrap .searchWrap input  { background-color: transparent; border: 1px solid #fff; padding-top: 3px; width: 125px; height: 16px; padding-left: 5px; color: #fff; font-size: 10px;}
-#regionalLanguage{width:416px; float: left; padding:12px 12px 12px 15px; margin-top: -10px; display: none; background:url(/css/images/SanDisk_Homepage_CountrySelector.png) no-repeat top left ;}
+#regionalLanguage{width:416px; float: left; padding:12px 12px 12px 15px; margin-top: -10px; display: none; background:url(www.sandisk.com/css/images/SanDisk_Homepage_CountrySelector.png) no-repeat top left ;}
 
 #five-coloum-header-block{height:auto; position:inherit;}
 #five-coloum-header-block div.left-top-header{float: left; height: 423px; height:411px\9 !important; *height:423px !important; width: 990px; cursor:pointer;}
@@ -248,7 +248,7 @@ color:
 
 #menu ul li:hover div.lastMenu{ display: block;}
 /*#menu .homeLink {
-background:transparent url(/css/images/bg-menu-home.gif) no-repeat scroll center center;
+background:transparent url(www.sandisk.com/css/images/bg-menu-home.gif) no-repeat scroll center center;
 display:block;
 height:31px;
 padding:4px 5px 0;
@@ -260,7 +260,7 @@ width:31px;
   width: 570px;
   display: none;
   padding:0px 0px 0px 20px;
-  background:url(/css/images/submenu-bg.jpg) repeat-x left top;
+  background:url(www.sandisk.com/css/images/submenu-bg.jpg) repeat-x left top;
   -khtml-opacity: .95 !important;
   -moz-opacity: .95 !important;
   opacity: .95 !important;
@@ -273,8 +273,8 @@ width:31px;
 #menu ul li div.subMenu div.col2{float: left; width: 162px; padding-right: 30px;}
 #menu ul li div.subMenu div.col3 {float: left; width: 170px; padding-right: 0px;}
 #menu ul li div.subMenu ul{ display: block; background: none; position: relative;padding:0;}
-#menu ul li div.subMenu ul li { background: url(/css/images/icon_right_arrow_black.png) no-repeat scroll 1px 7px transparent;   float: none; }
-#menu ul li div.subMenu ul li:hover { background: url(/css/images/icon_right_arrow_red.png) no-repeat scroll 1px 7px transparent;   }
+#menu ul li div.subMenu ul li { background: url(www.sandisk.com/css/images/icon_right_arrow_black.png) no-repeat scroll 1px 7px transparent;   float: none; }
+#menu ul li div.subMenu ul li:hover { background: url(www.sandisk.com/css/images/icon_right_arrow_red.png) no-repeat scroll 1px 7px transparent;   }
 #menu ul li div.subMenu ul li a{background:none; color: #fff; font-weight:normal; font-size: 12px; line-height: 14px;  display: block; padding: 3px 10px; width: 155px;}
 #menu ul li div.subMenu ul li a:hover{}
 .category a  {
@@ -296,14 +296,14 @@ div.subMenu div.col3 .promoBlock a{ background:none}
 div.subMenu div.col3 .promoBlock a:hover { background:none !important}
 div.subMenu div.col3 .promoBlock .promoImg:hover {background:blue}
 div.subMenu div.col3 .promoBlock .promoImg {border: #c21b35 4px solid; margin-left:-15px; }
-div.subMenu div.col3 .promoBlock .promoCaption { background: url(/css/images/icon_right_arrow_black.png) no-repeat scroll 1px 3px transparent; padding-left: 10px; margin: 3px 0; color:#fff; font-size:11px; line-height: 13pt !important;}
-.subMenuBottom {width: 590px;height: 15px; float: left; background: transparent url(/css/images/menu-bottom.jpg) repeat-x left bottom; margin-left:-20px}
+div.subMenu div.col3 .promoBlock .promoCaption { background: url(www.sandisk.com/css/images/icon_right_arrow_black.png) no-repeat scroll 1px 3px transparent; padding-left: 10px; margin: 3px 0; color:#fff; font-size:11px; line-height: 13pt !important;}
+.subMenuBottom {width: 590px;height: 15px; float: left; background: transparent url(www.sandisk.com/css/images/menu-bottom.jpg) repeat-x left bottom; margin-left:-20px}
 
 #menu ul li div.lastMenu {
   width: 160px;
   display: none;
   padding:0px 20px;
-   background:url(/css/images/submenu-bg.jpg) repeat-x left top;
+   background:url(www.sandisk.com/css/images/submenu-bg.jpg) repeat-x left top;
   -khtml-opacity: .95 !important;
   -moz-opacity: .95 !important;
   opacity: .95 !important;
@@ -312,11 +312,11 @@ div.subMenu div.col3 .promoBlock .promoCaption { background: url(/css/images/ico
   z-index:1000
 }
 /*#menu ul li div.lastMenu div.col4{float: left; width: 160px; padding-right: 40px; margin-top:20px}*/
-#menu ul li div.lastMenu ul li { background: url(/css/images/icon_right_arrow_black.png) no-repeat scroll 1px 7px transparent;   float: none; }
-#menu ul li div.lastMenu ul li:hover { background: url(/css/images/icon_right_arrow_red.png) no-repeat scroll 1px 7px transparent;   }
+#menu ul li div.lastMenu ul li { background: url(www.sandisk.com/css/images/icon_right_arrow_black.png) no-repeat scroll 1px 7px transparent;   float: none; }
+#menu ul li div.lastMenu ul li:hover { background: url(www.sandisk.com/css/images/icon_right_arrow_red.png) no-repeat scroll 1px 7px transparent;   }
 #menu ul li div.lastMenu ul li a{background:none; color: #fff; font-weight:normal; font-size: 12px; line-height: 14px;  display: block; padding: 3px 10px; width: 130px;}
 #menu ul li div.lastMenu ul li.category {color: #fff; font-size: 12px; border-bottom: #999 2px solid; padding: 0; margin: 10px 0 3px 0; font-weight:bold; line-height: 18px; float: none;width:100%; background: none !important;}
-.lastMenuBottom {width: 200px;height: 15px; float: left; background: transparent url(/css/images/menu-bottom.jpg) repeat-x left bottom; margin-left:-20px}
+.lastMenuBottom {width: 200px;height: 15px; float: left; background: transparent url(www.sandisk.com/css/images/menu-bottom.jpg) repeat-x left bottom; margin-left:-20px}
 .lastMenuTop{margin-top:8px}
 /***** Submenu styles end*****/
 
@@ -329,7 +329,7 @@ div.subMenu div.col3 .promoBlock .promoCaption { background: url(/css/images/ico
 
 /*----------------- Search -----------------*/
 
-/*background: url(/css/images/bg-sitesearch.gif) no-repeat;*/
+/*background: url(www.sandisk.com/css/images/bg-sitesearch.gif) no-repeat;*/
 
 /*----------------- FOOTER -----------------*/
 #footerWrap          { bottom:40px; margin-left:45px; position:absolute; width: 945px; color: #c9c9c9; }
@@ -340,7 +340,7 @@ div.subMenu div.col3 .promoBlock .promoCaption { background: url(/css/images/ico
 #footerWrap div.social-links a{padding:0px 2px}*/
 
 .four-col-teaser{
-  background:url(/css/images/four-col-bg.jpg) left top scroll no-repeat;
+  background:url(www.sandisk.com/css/images/four-col-bg.jpg) left top scroll no-repeat;
   height:260px;
   position:relative;
   padding-top:10px;
@@ -383,7 +383,7 @@ div.subMenu div.col3 .promoBlock .promoCaption { background: url(/css/images/ico
 .four-col-teaser ul li ul li a{
   color:#c9c9c9;
   text-decoration:none;
-  background:url(/css/images/footer-arrow.png) left no-repeat;
+  background:url(www.sandisk.com/css/images/footer-arrow.png) left no-repeat;
   padding-left:10px;
   
 }
