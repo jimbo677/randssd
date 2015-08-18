@@ -67,7 +67,7 @@ All layout styles, defining the structure and backgrounds of any element will go
 /*-------------------------- Two Coloun Layout -------------------------*/
 
 .left-box{
-    float:left !important;
+    float:right !important;
     width:730px;
    *width:728px;
     background:#fff;
