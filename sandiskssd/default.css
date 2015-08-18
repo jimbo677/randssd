@@ -78,7 +78,7 @@ All Common styles, defining the element styles will go here
 .MarginLR10    { margin:0 10px }
 .Margin15    { margin:15px }
 .MarginTB15    { margin:15px 0 }
-.MarginLR15    { margin:0 15px }
+.MarginLR15    { margin: 0 15px;}
 .Margin20    { margin:20px }
 .MarginTB20    { margin:20px 0 }
 .MarginLR20    { margin:0 20px }
@@ -128,7 +128,7 @@ a:hover{
 
 
 a.arrow {
-    background: url(img/arrow.gif) no-repeat right 5px;
+    background: url(http://www.sandisk.com/img/arrow.gif) no-repeat right 5px;
     padding-right: 8px;
     text-decoration: none;
 }
@@ -136,7 +136,7 @@ a.arrow:hover {
     text-decoration: underline;
 }
 a.arrow2{
-    background: url(img/arrow.gif) no-repeat 3px 5px;
+    background: url(http://www.sandisk.com/img/arrow.gif) no-repeat 3px 5px;
     padding-left: 13px; text-decoration: none;
 }
 a.arrow2:hover{
@@ -150,7 +150,7 @@ ul.redarrow{
     list-style: none;
 }
 ul.redarrow li{
-    background: url(img/arrow-red.gif) 3px 4px no-repeat;
+    background: url(http://www.sandisk.com/img/arrow-red.gif) 3px 4px no-repeat;
     padding-left: 14px;
     font-size: 12px;  
     color:#454444;
@@ -163,14 +163,14 @@ ul.redarrow2{
     list-style: none;
 }
 ul.redarrow2 li{
-    background: url(img/arrow-red.gif) 3px 4px no-repeat;
+    background: url(http://www.sandisk.com/img/arrow-red.gif) 3px 4px no-repeat;
     padding-left: 14px;
     font-size: 11px;
     color: #777;
     padding-bottom: 5px;
 }
 ul.redarrow2 li ul li{
-    background: url(img/arrow.gif) no-repeat 3px 5px;
+    background: url(http://www.sandisk.com/img/arrow.gif) no-repeat 3px 5px;
     line-height: 17px;
     padding-left: 15px;
     list-style: none;
@@ -186,7 +186,7 @@ ul.arrowList li{
     background: none;
 }
 ul.arrowList li a {
-    background: url(img/arrow.gif) no-repeat 3px 5px;
+    background: url(http://www.sandisk.com/img/arrow.gif) no-repeat 3px 5px;
     line-height: 17px;
     padding-left: 15px;
 }
@@ -254,23 +254,23 @@ h2 {position:static!important;}
 }
 .ajaxtabContent  { width: 677px; height:auto;float: left; padding: 24px 35px 20px 25px; display: inline; margin-bottom:20px; }
 
-.ajaxWrap    { float: left; width: 737px;margin-top:0px;_margin-top:5px; margin-left: -1px; _margin-left: -0px; background: url(img/bg-tabsbg.gif) no-repeat 0 34px; margin-bottom:5px;}
+.ajaxWrap    { float: left; width: 737px;margin-top:0px;_margin-top:5px; margin-left: -1px; _margin-left: -0px; background: url(http://www.sandisk.com/img/bg-tabsbg.gif) no-repeat 0 34px; margin-bottom:5px;}
 .ajaxTab { margin: 0; padding: 0; list-style: none;}
 .ajaxdiv {display:inline;margin: 0; padding: 0; list-style: none; }
-.ajaxdivleft {height: 35px; float: left; background: url(img/bg-tabLeft.gif) no-repeat; padding-left: 8px; color:#333; margin:0px; font-weight: bold;}
-.ajaxLink { height: 23px;width:90px; float: left; background: url(img/bg-tabRight.gif) no-repeat top right;text-align: center;
+.ajaxdivleft {height: 35px; float: left; background: url(http://www.sandisk.com/img/bg-tabLeft.gif) no-repeat; padding-left: 8px; color:#333; margin:0px; font-weight: bold;}
+.ajaxLink { height: 23px;width:90px; float: left; background: url(http://www.sandisk.com/img/bg-tabRight.gif) no-repeat top right;text-align: center;
  padding-top: 11px;margin-right: 4px;  font-family: Tahoma, Arial, Helvetica, sans-serif;     
       font-size: 11px;    
       font-weight: normal;    
       color: #000000;}
-.ajaxdivleftsel { height: 35px; float: left; background: url(img/bg-tabLeftSel.gif) no-repeat; padding-left: 8px; color: #333; margin: 0px; font-weight: bold; }
+.ajaxdivleftsel { height: 35px; float: left; background: url(http://www.sandisk.com/img/bg-tabLeftSel.gif) no-repeat; padding-left: 8px; color: #333; margin: 0px; font-weight: bold; }
 
-.ajaxon { height: 24px; float: left; background: url(img/bg-tabRightSel.gif) no-repeat top right; padding-right: 8px; width: 90px; text-align: center; padding-top: 11px;
+.ajaxon { height: 24px; float: left; background: url(http://www.sandisk.com/img/bg-tabRightSel.gif) no-repeat top right; padding-right: 8px; width: 90px; text-align: center; padding-top: 11px;
       margin-right: 4px;font-family: Tahoma, Arial, Helvetica, sans-serif;     
       font-size: 11px;    
       font-weight: bold;    
       color: #000000;}
-.ajaxdivright {border:1px solid black;height: 35px; float: right; background: url(img/bg-tabRightSel.gif) no-repeat; padding-left: 8px; color: #333;margin-right: 40px; font-weight: bold;}
+.ajaxdivright {border:1px solid black;height: 35px; float: right; background: url(http://www.sandisk.com/img/bg-tabRightSel.gif) no-repeat; padding-left: 8px; color: #333;margin-right: 40px; font-weight: bold;}
 
 /*---------------End AjaxTab------------*/
 
