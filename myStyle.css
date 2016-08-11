@@ -1,0 +1,76 @@
+@charset "utf-8";
+body  {
+	background-color: #545454;
+}
+table tr td {
+	font-family: Calibri;
+	font-size: 14pt;
+	color: #FFFFFF;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 800px;
+}
+
+
+
+body h1 {
+	font-family: Calibri;
+	text-align: center;
+	color: #FFFFFF;
+}
+#wrapper #header {
+	margin-left: 148px;
+}
+
+body h3 {
+	font-family: Calibri;
+	color: #000000;
+}
+#content #poke-table table {
+	background-color: #4666B7;
+}
+
+
+body h2 {
+	font-family: Calibri;
+	text-align: left;
+}
+#wrapper #content #right-info {
+	/* [disabled]list-style-type: none; */
+
+
+}
+#right-info ul li {
+	color: #FFFFFF;
+}
+
+#wrapper #content #account-info ul {
+	list-style-type: none;
+	display: inline-block;
+
+}
+#wrapper #content #account-info li {
+	font-family: Calibri;
+	font-size: 14pt;
+}
+
+
+#wrapper #content #left-info {
+	float: left;
+	font-weight: bold;
+}
+#wrapper #content #poke-table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+#wrapper #footer {
+	height: 100px;
+}
+#wrapper #content #account-info {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
